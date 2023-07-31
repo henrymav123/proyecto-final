@@ -1,0 +1,157 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* logo en el header*/
+@font-face {
+    font-family: "logo";
+    src: url(../assets/rockstyle.otf);
+}
+
+.hlogo {
+    font-family: "logo";
+    font-size: 2.5rem;
+    display: inline-block;
+}
+
+/*estilo de navegador en el header*/
+.navegador {
+    background-color: #c2f4e3;
+}
+
+.navegador ul {
+    list-style: none;
+    margin: 0;
+    margin-left: 500px;
+}
+
+.navegador ul li {
+    display: inline-block;
+}
+
+.navegador ul li a {
+    font-size: 15px;
+    color: #0d8c7b;
+    display: block;
+    margin-left: 80px;
+    padding: 1px 3px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navegador li a:hover {
+    color: black;
+    padding: 2px 30px;
+}
+
+/*button del header*/
+header button {
+    display: inline-block;
+    margin-left: 65%;
+    background-color: #d0a8f5;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+/*icono del header*/
+header i {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    height: 10px;
+    padding-left: 20px;
+}
+
+/*cuerpo del index*/
+#inicio{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 0%;
+}
+
+body {
+    position: relative;
+    padding-bottom: 20em;
+}
+
+.conteiner {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 500%;
+    display: inline-block;
+}
+
+.cerebro {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+.mainb {
+
+    height: 100%;
+}
+
+/*estilo del footer*/
+
+#conteiner-footer {
+display: flex;
+position: absolute;
+bottom: 0;
+width: 100%;
+align-content: center;
+justify-content: center;
+flex-wrap: wrap;
+background-color:#d9e9e3;
+color: #0d8c7b;
+height: 90px;
+}
+
+h3 {
+
+font-size:90%;
+
+}
+.i-conteiner{
+display: flex;
+position: absolute;
+bottom:0;
+right: 0;
+flex-wrap: wrap;
+margin-right: 0%;
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+footer i {
+    font-size: 20px;
+    padding-right: 10px;
+    float: right;
+    padding-top: 0%;
+
+}
+
+/*estilo de pagina nosotros*/
+
+.nosotros-contenido {
+    display: flex;
+}
+.nosotros-titulo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 40px;
+}
+.nosotrosmain {
+    max-height: 50%;
+}
+.imgnosotros {
+    width: 50%;
+    float: right;
+}
